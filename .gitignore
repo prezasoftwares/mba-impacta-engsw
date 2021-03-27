@@ -1,2 +1,11 @@
 infra-cloudcomputing/aula01-mysql/.vagrant
 infra-cloudcomputing/aula01-mysql/ubuntu-bionic-18.04-cloudimg-console.log
+infra-cloudcomputing/aula02-tr/.terraform/providers/registry.terraform.io/hashicorp/azurerm/2.52.0/windows_amd64/terraform-provider-azurerm_v2.52.0_x5.exe
+infra-cloudcomputing/aula02-tr/.terraform/providers/registry.terraform.io/hashicorp/tls/3.1.0/windows_amd64/terraform-provider-tls_v3.1.0_x5.exe
+infra-cloudcomputing/aula02-tr/terraform.tfstate
+infra-cloudcomputing/aula02-tr/terraform.tfstate.backup
+infra-cloudcomputing/aula02-tr/key
+infra-cloudcomputing/aula02-tr/.terraform.lock.hcl
+infra-cloudcomputing/aula02-tr/.terraform/providers/registry.terraform.io/hashicorp/time/0.7.0/windows_amd64/terraform-provider-time_v0.7.0_x5.exe
+infra-cloudcomputing/aula02-tr/.terraform/providers/registry.terraform.io/hashicorp/null/3.1.0/windows_amd64/terraform-provider-null_v3.1.0_x5.exe
+infra-cloudcomputing/aula02-tr/.terraform.tfstate.lock.info
