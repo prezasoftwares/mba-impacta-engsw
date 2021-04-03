@@ -1,0 +1,22 @@
+-- criar a rede virtual (por padrão = bridge)
+docker network create nwaula03
+
+--subir o container do nginx
+docker run -d --name webcontainer --network=nwaula03 -p 80:80 nginx
+
+-- subir o container do mysql
+docker run -d --name dbcontainer -e MYSQL_ROOT_PASSWORD=root --network=nwaula03 mysql
+
+-- A partir daqui, comandos para testar a conexão
+
+--obter o (IP) das maquinas na rede (dbcontainer)
+docker network inspect nwaula03
+
+--conectar no shell do container do nginx
+docker exec -it webcontainer sh
+
+-- instalar a ferramenta para ping
+apt-get update && apt-get install -y iputils-ping
+
+-- pingar a maquina do banco a partir da maquina do nginx
+ping 172.19.0.3
