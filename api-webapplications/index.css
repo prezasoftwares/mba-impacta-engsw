@@ -1,0 +1,26 @@
+div.letter {
+  position: absolute;
+  border: 1px solid #000000;
+  max-width: 50%;
+  min-width: 50%;
+  left: 25%;
+  top: 10%;
+}
+
+div.letter h1:first-child {
+  color: #FFFFFF;
+  background-color: #990000;
+  position: relative;
+  min-width: calc(100% + 30px);
+  left: -15px;
+  text-align: center;
+}
+
+div.letter h1:first-child::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -15px;
+  border: 7.5px solid;
+  border-color: transparent #7C0000 #7C0000 transparent;
+}
