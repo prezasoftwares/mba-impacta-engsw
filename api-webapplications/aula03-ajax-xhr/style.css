@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.form-input {
+    margin: 3px;
+}
+
+#botao-calculo {
+    margin: 10px;
+}
+
+p {
+    color: blue;
+    margin-top: 20px;
+}
+
+#tabela-imc {
+    margin-left: auto;
+    margin-right: auto;
+}
