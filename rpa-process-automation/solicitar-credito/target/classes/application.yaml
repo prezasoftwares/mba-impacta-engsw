@@ -1,0 +1,12 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda.bpm.admin-user:
+  id: admin
+  password: admin
+  firstName: Administrator
+camunda.bpm.filter:
+  create: Tarefas
+
+spring:
+  jersey:
+    application-path: mba
