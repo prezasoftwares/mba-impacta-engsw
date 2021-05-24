@@ -1,4 +1,4 @@
-package main.java.com.sample.credito.atividade;
+package com.sample.credito.atividade;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;

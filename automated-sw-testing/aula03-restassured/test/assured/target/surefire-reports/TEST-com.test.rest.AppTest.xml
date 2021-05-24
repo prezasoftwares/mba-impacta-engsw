@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.test.rest.AppTest" time="3.74" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured\target\test-classes;C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured\target\classes;C:\Users\junio\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\junio\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\junio\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\junio\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\junio\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\junio\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\junio\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured-all\4.1.1\rest-assured-all-4.1.1.jar;C:\Users\junio\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\junio\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\junio\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\junio\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\junio\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\junio\AppData\Local\Temp\surefire18239847819669025961\surefirebooter1075302023079447067.jar C:\Users\junio\AppData\Local\Temp\surefire18239847819669025961 2021-05-24T14-37-00_279-jvmRun1 surefire14778668894469799437tmp surefire_0880874328794230120tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured\target\test-classes;C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured\target\classes;C:\Users\junio\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\junio\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\junio\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\junio\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\junio\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\junio\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\junio\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\junio\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\junio\.m2\repository\io\rest-assured\rest-assured-all\4.1.1\rest-assured-all-4.1.1.jar;C:\Users\junio\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\junio\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\junio\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\junio\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\junio\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\junio\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\junio"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\junio\AppData\Local\Temp\surefire18239847819669025961\surefirebooter1075302023079447067.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="junio"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\junio\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\junio\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Source\moacirjuniorimpacta\mba-impacta-engsw\automated-sw-testing\aula03-restassured\test\assured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\HashiCorp\Vagrant\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\;C:\ProgramData\terraform_0.14.9_windows_amd64\;C:\kubernetes;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\junio\AppData\Local\Microsoft\WindowsApps;C:\Users\junio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\junio\.dotnet\tools;C:\Users\junio\AppData\Local\Microsoft\WindowsApps;C:\java\apache-maven-3.6.3\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\junio\AppData\Roaming\npm;C:\Users\junio\OneDrive\Documentos\WindowsPowerShell\Scripts;C:\kubernetes;C:\Program Files\heroku\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_getDDClassesList_shouldReturn200AndCountFieldInRespBody" classname="com.test.rest.AppTest" time="3.147"/>
+  <testcase name="test_getDDChucrutePath_shouldReturn404" classname="com.test.rest.AppTest" time="0.509"/>
+</testsuite>
